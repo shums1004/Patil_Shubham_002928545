@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="Title" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="292" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="labelModel" min="-2" pref="65" max="-2" attributes="0"/>
+                                  <Component id="labelBrand" min="-2" pref="65" max="-2" attributes="0"/>
+                                  <Component id="labelColour" alignment="0" min="-2" pref="65" max="-2" attributes="0"/>
+                                  <Component id="labelYear" min="-2" pref="65" max="-2" attributes="0"/>
+                                  <Component id="labelEngine_no" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelLicense_plate" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelSeats_no" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelOwner_name" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelOwner_tele_no" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelOwner_email_add" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelOwner_driv_lic" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelOwner_SSN" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelOwner_addr" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelService_rec" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelWarranty_year" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="textModel" pref="96" max="32767" attributes="0"/>
+                                      <Component id="textColour" alignment="0" pref="96" max="32767" attributes="0"/>
+                                      <Component id="textYear" pref="96" max="32767" attributes="0"/>
+                                      <Component id="textEngine_no" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="textLicense_plate" max="32767" attributes="0"/>
+                                      <Component id="textSeats_no" max="32767" attributes="0"/>
+                                      <Component id="textOwner_name" max="32767" attributes="0"/>
+                                      <Component id="textOwner_tele_no" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="textOwner_email_add" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="textOwner_driv_lic" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="textOwner_SSN" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="textOwner_addr" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="textBrand" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="textService_rec" min="-2" pref="96" max="-2" attributes="0"/>
+                                  <Component id="textWarranty_year" min="-2" pref="96" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="300" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="btnSave" min="-2" pref="91" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="440" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Component id="Title" min="-2" pref="25" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelBrand" alignment="3" pref="27" max="32767" attributes="0"/>
+                  <Component id="textBrand" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelModel" alignment="3" pref="27" max="32767" attributes="0"/>
+                  <Component id="textModel" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelColour" alignment="3" pref="29" max="32767" attributes="0"/>
+                  <Component id="textColour" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelYear" alignment="3" pref="27" max="32767" attributes="0"/>
+                  <Component id="textYear" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelEngine_no" alignment="3" max="32767" attributes="0"/>
+                  <Component id="textEngine_no" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelSeats_no" alignment="3" max="32767" attributes="0"/>
+                  <Component id="textSeats_no" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelLicense_plate" alignment="3" max="32767" attributes="0"/>
+                  <Component id="textLicense_plate" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelOwner_name" alignment="3" max="32767" attributes="0"/>
+                  <Component id="textOwner_name" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelOwner_tele_no" alignment="3" max="32767" attributes="0"/>
+                  <Component id="textOwner_tele_no" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelOwner_email_add" alignment="3" max="32767" attributes="0"/>
+                  <Component id="textOwner_email_add" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelOwner_driv_lic" alignment="3" max="32767" attributes="0"/>
+                  <Component id="textOwner_driv_lic" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelOwner_SSN" alignment="3" max="32767" attributes="0"/>
+                  <Component id="textOwner_SSN" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelOwner_addr" alignment="3" max="32767" attributes="0"/>
+                  <Component id="textOwner_addr" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelService_rec" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textService_rec" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelWarranty_year" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textWarranty_year" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+              <Component id="btnSave" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="705" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="Title">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="CAR PROFILE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelBrand">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Brand:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelModel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Model:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelColour">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Colour:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelYear">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Year:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textBrand">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textBrandActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textModel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textModelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textColour">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textColourActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textYear">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textYearActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSaveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelEngine_no">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Engine Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textEngine_no">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textEngine_noActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelLicense_plate">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="License_plate:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textLicense_plate">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textLicense_plateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelSeats_no">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Seats Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelOwner_name">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Owner Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelOwner_tele_no">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Owner Telephone Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelOwner_email_add">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Owner Email Addresses:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelOwner_driv_lic">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Owner Driver License:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelOwner_SSN">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Owner Social Security Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelOwner_addr">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Owner Addresses:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelService_rec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Service Records:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelWarranty_year">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Warranty Year:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textSeats_no">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textSeats_noActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textOwner_name">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textOwner_nameActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textOwner_tele_no">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textOwner_email_add">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textOwner_driv_lic">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textOwner_SSN">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textOwner_addr">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textService_rec">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textWarranty_year">
+    </Component>
+  </SubComponents>
+</Form>
