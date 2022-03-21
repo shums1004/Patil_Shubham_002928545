@@ -59,6 +59,13 @@ public class AddVitalsPanel extends javax.swing.JPanel {
         btnSaveVitals = new javax.swing.JButton();
         cmbBoxName = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
 
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -146,6 +153,27 @@ public class AddVitalsPanel extends javax.swing.JPanel {
 
         jLabel1.setText("Id");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 46, -1, -1));
+
+        jLabel2.setText("Normal Range ");
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 90, 120, 20));
+
+        jLabel3.setText(" 50-120");
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 160, 130, -1));
+
+        jLabel5.setText(" 50-120");
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 120, 130, -1));
+
+        jLabel6.setText("80-140");
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 200, -1, -1));
+
+        jLabel7.setText("<85");
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 240, -1, -1));
+
+        jLabel8.setText("<200");
+        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 320, -1, -1));
+
+        jLabel9.setText("<100");
+        add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 280, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtHeartRateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtHeartRateActionPerformed
@@ -256,6 +284,13 @@ public class AddVitalsPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnSaveVitals;
     private javax.swing.JComboBox<String> cmbBoxName;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel lblAddVitals;
     private javax.swing.JLabel lblBloodOxygenLevel;
     private javax.swing.JLabel lblBloodPressure;
